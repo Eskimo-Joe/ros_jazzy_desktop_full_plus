@@ -1,0 +1,141 @@
+[0.490s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_cbg_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_cbg_executor:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.055s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[1.059s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[1.064s]    Site: 9089e2a3b0de
+[1.068s]    Build name: (empty)
+[1.071s]  Add coverage exclude regular expressions.
+[1.074s] Create new tag: 20241003-2106 - Experimental
+[1.081s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[1.084s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/CTestConfiguration.ini
+[1.091s] Test project /rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor
+[1.094s] Constructing a list of tests
+[1.100s] Done constructing a list of tests
+[1.103s] Updating test list for fixtures
+[1.105s] Added 0 tests to meet fixture requirements
+[1.107s] Checking test dependency graph...
+[1.111s] Checking test dependency graph end
+[1.115s] test 1
+[1.122s]     Start 1: copyright
+[1.125s] 
+[1.131s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml"
+[1.136s] 1: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor
+[1.143s] 1: Test timeout computed to be: 200
+[1.349s] 1: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor':
+[1.352s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml
+[2.578s] 1: No problems found, checked 8 files
+[2.607s] 1: -- run_test.py: return code 0
+[2.636s] 1: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml'
+[2.669s] 1/6 Test #1: copyright ........................   Passed    2.20 sec
+[2.680s] test 2
+[2.682s]     Start 2: cppcheck
+[2.688s] 
+[2.690s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml" "--include_dirs" "/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/include"
+[2.693s] 2: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor
+[2.698s] 2: Test timeout computed to be: 300
+[2.912s] 2: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor':
+[2.918s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml --include_dirs /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/include
+[3.170s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[3.215s] 2: -- run_test.py: return code 0
+[3.217s] 2: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cppcheck.xunit.xml'
+[3.264s] 2/6 Test #2: cppcheck .........................   Passed    0.57 sec
+[3.268s] test 3
+[3.271s]     Start 3: cpplint
+[3.273s] 
+[3.279s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml"
+[3.280s] 3: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor
+[3.284s] 3: Test timeout computed to be: 120
+[3.533s] 3: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor':
+[3.536s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml
+[11.874s] 3: Using '--root=/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/include' argument
+[11.879s] 3: 
+[11.885s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[11.911s] 3: 
+[11.916s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[11.919s] 3: 
+[11.924s] 3: Using '--root=/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/src' argument
+[11.925s] 3: 
+[11.931s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/ping_node.cpp
+[11.933s] 3: 
+[11.936s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/pong_node.cpp
+[11.938s] 3: 
+[11.950s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/src/examples_rclcpp_cbg_executor/utilities.hpp
+[11.958s] 3: 
+[11.962s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/src/ping.cpp
+[11.965s] 3: 
+[11.968s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/src/ping_pong.cpp
+[11.970s] 3: 
+[11.972s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor/src/pong.cpp
+[11.975s] 3: 
+[11.977s] 3: No problems found
+[11.979s] 3: -- run_test.py: return code 0
+[11.980s] 3: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/cpplint.xunit.xml'
+[11.982s] 3/6 Test #3: cpplint ..........................   Passed    8.71 sec
+[11.984s] test 4
+[11.986s]     Start 4: lint_cmake
+[11.987s] 
+[11.989s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml"
+[11.991s] 4: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor
+[11.995s] 4: Test timeout computed to be: 60
+[12.170s] 4: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor':
+[12.172s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml
+[12.396s] 4: 
+[12.401s] 4: No problems found
+[12.427s] 4: -- run_test.py: return code 0
+[12.429s] 4: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/lint_cmake.xunit.xml'
+[12.461s] 4/6 Test #4: lint_cmake .......................   Passed    0.48 sec
+[12.468s] test 5
+[12.470s]     Start 5: uncrustify
+[12.472s] 
+[12.480s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml"
+[12.481s] 5: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor
+[12.486s] 5: Test timeout computed to be: 60
+[12.638s] 5: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor':
+[12.644s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml
+[13.068s] 5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/ping_node.hpp'
+[13.070s] 5: 
+[13.074s] 5: No code style divergence in file 'include/examples_rclcpp_cbg_executor/pong_node.hpp'
+[13.076s] 5: 
+[13.079s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/ping_node.cpp'
+[13.083s] 5: 
+[13.090s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/pong_node.cpp'
+[13.096s] 5: 
+[13.100s] 5: No code style divergence in file 'src/examples_rclcpp_cbg_executor/utilities.hpp'
+[13.108s] 5: 
+[13.109s] 5: No code style divergence in file 'src/ping.cpp'
+[13.112s] 5: 
+[13.117s] 5: No code style divergence in file 'src/ping_pong.cpp'
+[13.119s] 5: 
+[13.121s] 5: No code style divergence in file 'src/pong.cpp'
+[13.123s] 5: 
+[13.125s] 5: No problems found
+[13.132s] 5: -- run_test.py: return code 0
+[13.136s] 5: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml'
+[13.167s] 5/6 Test #5: uncrustify .......................   Passed    0.70 sec
+[13.170s] test 6
+[13.176s]     Start 6: xmllint
+[13.178s] 
+[13.179s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml"
+[13.182s] 6: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor
+[13.183s] 6: Test timeout computed to be: 60
+[13.340s] 6: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/cbg_executor':
+[13.347s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml
+[13.749s] 6: File 'package.xml' is valid
+[13.751s] 6: 
+[13.752s] 6: No problems found
+[13.784s] 6: -- run_test.py: return code 0
+[13.786s] 6: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/xmllint.xunit.xml'
+[13.832s] 6/6 Test #6: xmllint ..........................   Passed    0.65 sec
+[13.848s] 
+[13.853s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[13.855s] 
+[13.857s] Label Time Summary:
+[13.861s] copyright     =   2.20 sec*proc (1 test)
+[13.867s] cppcheck      =   0.57 sec*proc (1 test)
+[13.873s] cpplint       =   8.71 sec*proc (1 test)
+[13.875s] lint_cmake    =   0.48 sec*proc (1 test)
+[13.876s] linter        =  13.31 sec*proc (6 tests)
+[13.878s] uncrustify    =   0.70 sec*proc (1 test)
+[13.883s] xmllint       =   0.65 sec*proc (1 test)
+[13.884s] 
+[13.886s] Total Test time (real) =  13.39 sec
+[15.042s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_cbg_executor' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_cbg_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_cbg_executor:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

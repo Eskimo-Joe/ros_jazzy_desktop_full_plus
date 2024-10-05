@@ -1,0 +1,17 @@
+[0.887s] Invoking command in '/rjd_projects/colcon_practice1/src/examples/rclpy/actions/minimal_action_server': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_action_server:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server/pytest.xml --junit-prefix=examples_rclpy_minimal_action_server -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server:/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.969s] [1m============================= test session starts ==============================[0m
+[1.971s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.983s] cachedir: /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server/.pytest_cache
+[1.985s] rootdir: /rjd_projects/colcon_practice1/src/examples/rclpy
+[1.991s] configfile: pytest.ini
+[1.993s] plugins: ament-pep257-0.17.1, ament-xmllint-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, ament-lint-0.17.1, ament-flake8-0.17.1, launch-testing-3.4.2, colcon-core-0.18.1, cov-4.1.0
+[2.234s] [1mcollecting ... [0m[1m
+[2.236s] collected 3 items                                                              [0m
+[2.240s] 
+[3.730s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[4.140s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[4.307s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[4.311s] 
+[4.313s] - generated xml file: /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server/pytest.xml -
+[4.315s] [32m============================== [32m[1m3 passed[0m[32m in 2.33s[0m[32m ===============================[0m
+[5.050s] Invoked command in '/rjd_projects/colcon_practice1/src/examples/rclpy/actions/minimal_action_server' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_action_server:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server/pytest.xml --junit-prefix=examples_rclpy_minimal_action_server -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_action_server:/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

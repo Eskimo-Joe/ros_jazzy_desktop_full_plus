@@ -1,0 +1,40 @@
+[4.600s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client': PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client/build --no-deps symlink_data
+[5.961s] running develop
+[5.966s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.974s] !!
+[5.980s] 
+[5.984s]         ********************************************************************************
+[5.996s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.000s]         Instead, use pypa/build, pypa/installer or other
+[6.002s]         standards-based tools.
+[6.010s] 
+[6.012s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.015s]         ********************************************************************************
+[6.021s] 
+[6.029s] !!
+[6.031s]   easy_install.initialize_options(self)
+[6.723s] running egg_info
+[6.725s] creating examples_rclpy_minimal_client.egg-info
+[6.805s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[6.816s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[6.822s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[6.825s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[6.828s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[6.840s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[7.023s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[7.042s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[7.149s] running build_ext
+[7.152s] Creating /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[7.167s] Installing client script to /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[7.177s] Installing client_async script to /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[7.186s] Installing client_async_callback script to /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[7.200s] Installing client_async_member_function script to /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[7.215s] 
+[7.220s] Installed /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client
+[7.230s] running symlink_data
+[7.233s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/share/ament_index
+[7.236s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[7.239s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[7.258s] symbolically linking /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[7.261s] symbolically linking /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client/package.xml -> /rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[7.603s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_client/build --no-deps symlink_data

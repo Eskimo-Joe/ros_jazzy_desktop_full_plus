@@ -1,0 +1,70 @@
+[0.503s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer
+[1.443s] -- The C compiler identification is GNU 13.2.0
+[2.172s] -- The CXX compiler identification is GNU 13.2.0
+[2.427s] -- Detecting C compiler ABI info
+[3.655s] -- Detecting C compiler ABI info - done
+[3.884s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.885s] -- Detecting C compile features
+[3.887s] -- Detecting C compile features - done
+[3.978s] -- Detecting CXX compiler ABI info
+[5.296s] -- Detecting CXX compiler ABI info - done
+[5.568s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.575s] -- Detecting CXX compile features
+[5.579s] -- Detecting CXX compile features - done
+[5.659s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[7.218s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.684s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.700s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[9.361s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.654s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.995s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[11.073s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[11.743s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[11.849s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[12.009s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.828s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[14.412s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.459s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.462s] -- Configured cppcheck include dirs: 
+[14.470s] -- Configured cppcheck exclude dirs and/or files: 
+[14.508s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.511s] -- Configured cpplint exclude dirs and/or files: 
+[14.523s] -- Added test 'lint_cmake' to check CMake code style
+[14.564s] -- Added test 'uncrustify' to check C / C++ code style
+[14.567s] -- Configured uncrustify additional arguments: 
+[14.578s] -- Added test 'xmllint' to check XML markup files
+[14.709s] -- Configuring done (14.0s)
+[15.327s] -- Generating done (0.5s)
+[15.430s] -- Build files have been written to: /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer
+[15.851s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer
+[15.856s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[16.175s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[29.034s] [ 50%] [32m[1mLinking CXX executable timer_lambda[0m
+[29.685s] [ 50%] Built target timer_lambda
+[29.784s] [ 75%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[41.337s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[42.132s] [100%] Built target timer_member_function
+[43.023s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[43.297s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer
+[43.340s] -- Install configuration: ""
+[43.345s] -- Execute custom install script
+[43.357s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[43.392s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[43.435s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[43.495s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[43.541s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[43.581s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[43.613s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[43.646s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[43.687s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[43.717s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[43.752s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[43.783s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[43.816s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[43.858s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[43.898s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[43.933s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[43.972s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[44.012s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer

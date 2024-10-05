@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor':
+ - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml
+
+Using '--root=..' argument
+
+Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml'

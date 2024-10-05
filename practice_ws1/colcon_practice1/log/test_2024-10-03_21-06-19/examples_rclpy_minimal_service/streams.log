@@ -1,0 +1,17 @@
+[1.648s] Invoking command in '/rjd_projects/colcon_practice1/src/examples/rclpy/services/minimal_service': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service:/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.551s] [1m============================= test session starts ==============================[0m
+[2.554s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[2.564s] cachedir: /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service/.pytest_cache
+[2.573s] rootdir: /rjd_projects/colcon_practice1/src/examples/rclpy
+[2.574s] configfile: pytest.ini
+[2.576s] plugins: ament-pep257-0.17.1, ament-xmllint-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, ament-lint-0.17.1, ament-flake8-0.17.1, launch-testing-3.4.2, colcon-core-0.18.1, cov-4.1.0
+[2.851s] [1mcollecting ... [0m[1m
+[2.852s] collected 3 items                                                              [0m
+[2.855s] 
+[3.603s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[3.950s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[4.012s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[4.015s] 
+[4.017s] - generated xml file: /rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service/pytest.xml -
+[4.020s] [32m============================== [32m[1m3 passed[0m[32m in 1.46s[0m[32m ===============================[0m
+[4.169s] Invoked command in '/rjd_projects/colcon_practice1/src/examples/rclpy/services/minimal_service' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_minimal_service:/rjd_projects/colcon_practice1/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

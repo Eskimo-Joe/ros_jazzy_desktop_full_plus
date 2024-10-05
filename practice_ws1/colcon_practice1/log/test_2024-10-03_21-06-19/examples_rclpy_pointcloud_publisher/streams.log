@@ -1,0 +1,17 @@
+[1.422s] Invoking command in '/rjd_projects/colcon_practice1/src/examples/rclpy/topics/pointcloud_publisher': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher:/rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.324s] [1m============================= test session starts ==============================[0m
+[2.326s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[2.331s] cachedir: /rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/.pytest_cache
+[2.336s] rootdir: /rjd_projects/colcon_practice1/src/examples/rclpy
+[2.338s] configfile: pytest.ini
+[2.339s] plugins: ament-pep257-0.17.1, ament-xmllint-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, ament-lint-0.17.1, ament-flake8-0.17.1, launch-testing-3.4.2, colcon-core-0.18.1, cov-4.1.0
+[2.521s] [1mcollecting ... [0m[1m
+[2.531s] collected 3 items                                                              [0m
+[2.533s] 
+[3.009s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[3.224s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[3.302s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[3.305s] 
+[3.307s] - generated xml file: /rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/pytest.xml -
+[3.309s] [32m============================== [32m[1m3 passed[0m[32m in 0.98s[0m[32m ===============================[0m
+[3.432s] Invoked command in '/rjd_projects/colcon_practice1/src/examples/rclpy/topics/pointcloud_publisher' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher:/rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

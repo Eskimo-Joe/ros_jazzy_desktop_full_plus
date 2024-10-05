@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/timers/minimal_timer':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml'

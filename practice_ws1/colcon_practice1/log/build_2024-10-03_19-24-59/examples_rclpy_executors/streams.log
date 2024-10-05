@@ -1,0 +1,42 @@
+[5.631s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclpy_executors': PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/examples_rclpy_executors/build --no-deps symlink_data
+[11.874s] running develop
+[11.879s] running egg_info
+[11.883s] creating examples_rclpy_executors.egg-info
+[11.885s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[11.893s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[11.896s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[11.899s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[11.903s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[11.907s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[11.910s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[11.915s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[11.918s] running build_ext
+[11.922s] Creating /rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/python3.12/site-packages/examples-rclpy-executors.egg-link (link to .)
+[11.930s] Installing callback_group script to /rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.933s] Installing composed script to /rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.949s] Installing custom_callback_group script to /rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.952s] Installing custom_executor script to /rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.958s] Installing listener script to /rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.962s] Installing talker script to /rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[11.964s] 
+[11.967s] Installed /rjd_projects/colcon_practice1/build/examples_rclpy_executors
+[11.972s] running symlink_data
+[11.978s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_executors/share/ament_index
+[11.985s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_executors/share/ament_index/resource_index
+[11.989s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[11.994s] symbolically linking /rjd_projects/colcon_practice1/build/examples_rclpy_executors/resource/examples_rclpy_executors -> /rjd_projects/colcon_practice1/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[12.001s] symbolically linking /rjd_projects/colcon_practice1/build/examples_rclpy_executors/package.xml -> /rjd_projects/colcon_practice1/install/examples_rclpy_executors/share/examples_rclpy_executors
+[12.007s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[12.013s] !!
+[12.024s] 
+[12.030s]         ********************************************************************************
+[12.034s]         Please avoid running ``setup.py`` and ``easy_install``.
+[12.040s]         Instead, use pypa/build, pypa/installer or other
+[12.045s]         standards-based tools.
+[12.047s] 
+[12.061s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[12.068s]         ********************************************************************************
+[12.075s] 
+[12.082s] !!
+[12.085s]   easy_install.initialize_options(self)
+[12.138s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclpy_executors' returned '0': PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/examples_rclpy_executors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/examples_rclpy_executors/build --no-deps symlink_data

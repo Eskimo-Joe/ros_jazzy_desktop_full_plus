@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_publisher':
+ - /opt/ros/jazzy/bin/ament_copyright --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml
+
+No problems found, checked 6 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml'

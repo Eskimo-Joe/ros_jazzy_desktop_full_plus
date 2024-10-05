@@ -1,0 +1,111 @@
+[0.437s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_async_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_async_client:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.902s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.907s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.908s]    Site: 9089e2a3b0de
+[0.911s]    Build name: (empty)
+[0.914s]  Add coverage exclude regular expressions.
+[0.918s] Create new tag: 20241003-2106 - Experimental
+[0.922s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.927s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.929s] Test project /rjd_projects/colcon_practice1/build/examples_rclcpp_async_client
+[0.933s] Constructing a list of tests
+[0.936s] Done constructing a list of tests
+[0.939s] Updating test list for fixtures
+[0.943s] Added 0 tests to meet fixture requirements
+[0.951s] Checking test dependency graph...
+[0.955s] Checking test dependency graph end
+[0.960s] test 1
+[0.962s]     Start 1: copyright
+[0.965s] 
+[0.976s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml"
+[0.980s] 1: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client
+[0.983s] 1: Test timeout computed to be: 200
+[1.365s] 1: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client':
+[1.368s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml
+[1.501s] 1: No problems found, checked 1 files
+[1.538s] 1: -- run_test.py: return code 0
+[1.541s] 1: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml'
+[1.599s] 1/6 Test #1: copyright ........................   Passed    1.13 sec
+[1.601s] test 2
+[1.606s]     Start 2: cppcheck
+[1.615s] 
+[1.620s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml"
+[1.624s] 2: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client
+[1.627s] 2: Test timeout computed to be: 300
+[1.819s] 2: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client':
+[1.821s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml
+[2.174s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[2.217s] 2: -- run_test.py: return code 0
+[2.228s] 2: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml'
+[2.270s] 2/6 Test #2: cppcheck .........................   Passed    0.67 sec
+[2.275s] test 3
+[2.278s]     Start 3: cpplint
+[2.284s] 
+[2.293s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml"
+[2.298s] 3: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client
+[2.308s] 3: Test timeout computed to be: 120
+[2.448s] 3: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client':
+[2.450s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml
+[3.257s] 3: Using '--root=..' argument
+[3.259s] 3: 
+[3.262s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client/main.cpp
+[3.270s] 3: 
+[3.275s] 3: No problems found
+[3.328s] 3: -- run_test.py: return code 0
+[3.332s] 3: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml'
+[3.354s] 3/6 Test #3: cpplint ..........................   Passed    1.08 sec
+[3.361s] test 4
+[3.364s]     Start 4: lint_cmake
+[3.373s] 
+[3.374s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml"
+[3.376s] 4: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client
+[3.381s] 4: Test timeout computed to be: 60
+[3.577s] 4: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client':
+[3.579s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml
+[3.807s] 4: 
+[3.810s] 4: No problems found
+[3.843s] 4: -- run_test.py: return code 0
+[3.850s] 4: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/lint_cmake.xunit.xml'
+[3.905s] 4/6 Test #4: lint_cmake .......................   Passed    0.54 sec
+[3.910s] test 5
+[3.913s]     Start 5: uncrustify
+[3.915s] 
+[3.918s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml"
+[3.921s] 5: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client
+[3.923s] 5: Test timeout computed to be: 60
+[4.099s] 5: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client':
+[4.103s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml
+[4.361s] 5: No code style divergence in file 'main.cpp'
+[4.363s] 5: 
+[4.366s] 5: No problems found
+[4.401s] 5: -- run_test.py: return code 0
+[4.403s] 5: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/uncrustify.xunit.xml'
+[4.436s] 5/6 Test #5: uncrustify .......................   Passed    0.52 sec
+[4.442s] test 6
+[4.444s]     Start 6: xmllint
+[4.446s] 
+[4.454s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml"
+[4.456s] 6: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client
+[4.460s] 6: Test timeout computed to be: 60
+[4.605s] 6: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/services/async_client':
+[4.606s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml
+[5.047s] 6: File 'package.xml' is valid
+[5.052s] 6: 
+[5.054s] 6: No problems found
+[5.087s] 6: -- run_test.py: return code 0
+[5.089s] 6: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/xmllint.xunit.xml'
+[5.146s] 6/6 Test #6: xmllint ..........................   Passed    0.68 sec
+[5.153s] 
+[5.159s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[5.166s] 
+[5.168s] Label Time Summary:
+[5.172s] copyright     =   1.13 sec*proc (1 test)
+[5.179s] cppcheck      =   0.67 sec*proc (1 test)
+[5.183s] cpplint       =   1.08 sec*proc (1 test)
+[5.186s] lint_cmake    =   0.54 sec*proc (1 test)
+[5.189s] linter        =   4.62 sec*proc (6 tests)
+[5.191s] uncrustify    =   0.52 sec*proc (1 test)
+[5.193s] xmllint       =   0.68 sec*proc (1 test)
+[5.195s] 
+[5.197s] Total Test time (real) =   4.69 sec
+[5.340s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_async_client' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_async_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_async_client:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

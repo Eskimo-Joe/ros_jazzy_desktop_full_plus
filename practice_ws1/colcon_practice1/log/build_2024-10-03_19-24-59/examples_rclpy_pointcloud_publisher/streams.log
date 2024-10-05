@@ -1,0 +1,37 @@
+[3.346s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher': PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data
+[5.900s] running develop
+[5.902s] running egg_info
+[5.906s] creating examples_rclpy_pointcloud_publisher.egg-info
+[5.908s] writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[5.913s] writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[5.916s] writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[5.919s] writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[5.921s] writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[5.924s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.926s] reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.928s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.930s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.934s] !!
+[5.936s] 
+[5.938s]         ********************************************************************************
+[5.941s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.942s]         Instead, use pypa/build, pypa/installer or other
+[5.945s]         standards-based tools.
+[5.947s] 
+[5.949s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.955s]         ********************************************************************************
+[5.958s] 
+[5.960s] !!
+[5.962s]   easy_install.initialize_options(self)
+[5.979s] running build_ext
+[5.981s] Creating /rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[5.993s] Installing pointcloud_publisher script to /rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[6.000s] 
+[6.006s] Installed /rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher
+[6.009s] running symlink_data
+[6.012s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[6.020s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[6.022s] creating /rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[6.027s] symbolically linking /rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/resource/examples_rclpy_pointcloud_publisher -> /rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[6.031s] symbolically linking /rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/package.xml -> /rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[6.150s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher' returned '0': PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data

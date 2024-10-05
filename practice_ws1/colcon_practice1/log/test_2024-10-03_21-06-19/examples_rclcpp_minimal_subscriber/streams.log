@@ -1,0 +1,147 @@
+[0.777s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.823s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/CTestConfiguration.ini
+[0.831s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/CTestConfiguration.ini
+[0.834s]    Site: 9089e2a3b0de
+[0.838s]    Build name: (empty)
+[0.849s]  Add coverage exclude regular expressions.
+[0.850s] Create new tag: 20241003-2106 - Experimental
+[0.852s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/CTestConfiguration.ini
+[0.853s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/CTestConfiguration.ini
+[0.855s] Test project /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber
+[0.856s] Constructing a list of tests
+[0.861s] Done constructing a list of tests
+[0.863s] Updating test list for fixtures
+[0.865s] Added 0 tests to meet fixture requirements
+[0.879s] Checking test dependency graph...
+[0.881s] Checking test dependency graph end
+[0.883s] test 1
+[0.886s]     Start 1: copyright
+[0.888s] 
+[0.891s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_subscriber" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/copyright.xunit.xml"
+[0.894s] 1: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber
+[0.896s] 1: Test timeout computed to be: 200
+[1.080s] 1: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber':
+[1.083s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/copyright.xunit.xml
+[2.307s] 1: No problems found, checked 10 files
+[2.374s] 1: -- run_test.py: return code 0
+[2.376s] 1: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/copyright.xunit.xml'
+[2.398s] 1/6 Test #1: copyright ........................   Passed    2.27 sec
+[2.408s] test 2
+[2.410s]     Start 2: cppcheck
+[2.416s] 
+[2.419s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_subscriber" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cppcheck.xunit.xml"
+[2.423s] 2: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber
+[2.426s] 2: Test timeout computed to be: 300
+[2.669s] 2: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber':
+[2.673s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cppcheck.xunit.xml
+[2.888s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[2.934s] 2: -- run_test.py: return code 0
+[2.937s] 2: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cppcheck.xunit.xml'
+[2.968s] 2/6 Test #2: cppcheck .........................   Passed    0.56 sec
+[2.978s] test 3
+[2.982s]     Start 3: cpplint
+[2.985s] 
+[2.992s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_subscriber" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cpplint.xunit.xml"
+[2.996s] 3: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber
+[2.998s] 3: Test timeout computed to be: 120
+[3.343s] 3: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber':
+[3.346s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cpplint.xunit.xml
+[6.162s] 3: Using '--root=..' argument
+[6.167s] 3: 
+[6.171s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/content_filtering.cpp
+[6.175s] 3: 
+[6.177s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp
+[6.178s] 3: 
+[6.182s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp
+[6.185s] 3: 
+[6.187s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp
+[6.188s] 3: 
+[6.191s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_type_adapter.cpp
+[6.195s] 3: 
+[6.197s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_unique_network_flow_endpoints.cpp
+[6.200s] 3: 
+[6.202s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp
+[6.205s] 3: 
+[6.210s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/static_wait_set_subscriber.cpp
+[6.212s] 3: 
+[6.213s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/time_triggered_wait_set_subscriber.cpp
+[6.215s] 3: 
+[6.217s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber/wait_set_subscriber.cpp
+[6.218s] 3: 
+[6.220s] 3: No problems found
+[6.239s] 3: -- run_test.py: return code 0
+[6.241s] 3: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cpplint.xunit.xml'
+[6.267s] 3/6 Test #3: cpplint ..........................   Passed    3.28 sec
+[6.270s] test 4
+[6.273s]     Start 4: lint_cmake
+[6.280s] 
+[6.282s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_subscriber" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/lint_cmake.xunit.xml"
+[6.283s] 4: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber
+[6.285s] 4: Test timeout computed to be: 60
+[6.429s] 4: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber':
+[6.431s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/lint_cmake.xunit.xml
+[6.668s] 4: 
+[6.672s] 4: No problems found
+[6.709s] 4: -- run_test.py: return code 0
+[6.712s] 4: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/lint_cmake.xunit.xml'
+[6.754s] 4/6 Test #4: lint_cmake .......................   Passed    0.48 sec
+[6.759s] test 5
+[6.762s]     Start 5: uncrustify
+[6.764s] 
+[6.771s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_subscriber" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/uncrustify.xunit.xml"
+[6.773s] 5: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber
+[6.776s] 5: Test timeout computed to be: 60
+[6.935s] 5: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber':
+[6.940s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/uncrustify.xunit.xml
+[7.374s] 5: No code style divergence in file 'content_filtering.cpp'
+[7.378s] 5: 
+[7.383s] 5: No code style divergence in file 'lambda.cpp'
+[7.385s] 5: 
+[7.388s] 5: No code style divergence in file 'member_function.cpp'
+[7.394s] 5: 
+[7.396s] 5: No code style divergence in file 'member_function_with_topic_statistics.cpp'
+[7.398s] 5: 
+[7.401s] 5: No code style divergence in file 'member_function_with_type_adapter.cpp'
+[7.403s] 5: 
+[7.405s] 5: No code style divergence in file 'member_function_with_unique_network_flow_endpoints.cpp'
+[7.407s] 5: 
+[7.409s] 5: No code style divergence in file 'not_composable.cpp'
+[7.411s] 5: 
+[7.414s] 5: No code style divergence in file 'static_wait_set_subscriber.cpp'
+[7.423s] 5: 
+[7.428s] 5: No code style divergence in file 'time_triggered_wait_set_subscriber.cpp'
+[7.432s] 5: 
+[7.435s] 5: No code style divergence in file 'wait_set_subscriber.cpp'
+[7.437s] 5: 
+[7.439s] 5: No problems found
+[7.442s] 5: -- run_test.py: return code 0
+[7.444s] 5: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/uncrustify.xunit.xml'
+[7.475s] 5/6 Test #5: uncrustify .......................   Passed    0.68 sec
+[7.481s] test 6
+[7.487s]     Start 6: xmllint
+[7.489s] 
+[7.494s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_subscriber" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/xmllint.xunit.xml"
+[7.496s] 6: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber
+[7.499s] 6: Test timeout computed to be: 60
+[7.640s] 6: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber':
+[7.642s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/xmllint.xunit.xml
+[8.046s] 6: File 'package.xml' is valid
+[8.051s] 6: 
+[8.052s] 6: No problems found
+[8.083s] 6: -- run_test.py: return code 0
+[8.085s] 6: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/xmllint.xunit.xml'
+[8.114s] 6/6 Test #6: xmllint ..........................   Passed    0.66 sec
+[8.125s] 
+[8.128s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[8.136s] 
+[8.138s] Label Time Summary:
+[8.140s] copyright     =   2.27 sec*proc (1 test)
+[8.142s] cppcheck      =   0.56 sec*proc (1 test)
+[8.147s] cpplint       =   3.28 sec*proc (1 test)
+[8.149s] lint_cmake    =   0.48 sec*proc (1 test)
+[8.150s] linter        =   7.92 sec*proc (6 tests)
+[8.152s] uncrustify    =   0.68 sec*proc (1 test)
+[8.154s] xmllint       =   0.66 sec*proc (1 test)
+[8.158s] 
+[8.160s] Total Test time (real) =   8.01 sec
+[8.231s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

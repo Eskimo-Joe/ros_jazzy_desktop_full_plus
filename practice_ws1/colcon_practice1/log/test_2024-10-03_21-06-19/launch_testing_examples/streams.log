@@ -1,0 +1,35 @@
+[0.687s] Invoking command in '/rjd_projects/colcon_practice1/src/examples/launch_testing/launch_testing_examples': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/rjd_projects/colcon_practice1/build/launch_testing_examples/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/launch_testing_examples:/rjd_projects/colcon_practice1/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.446s] [1m============================= test session starts ==============================[0m
+[1.449s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.453s] cachedir: /rjd_projects/colcon_practice1/build/launch_testing_examples/.pytest_cache
+[1.455s] rootdir: /rjd_projects/colcon_practice1/src/examples/launch_testing/launch_testing_examples
+[1.456s] plugins: ament-pep257-0.17.1, ament-xmllint-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, ament-lint-0.17.1, ament-flake8-0.17.1, launch-testing-3.4.2, colcon-core-0.18.1, cov-4.1.0
+[2.314s] [1mcollecting ... [0m[1m
+[2.324s] collecting 1 item                                                              [0m[1m
+[2.327s] collected 9 items                                                              [0m
+[2.328s] 
+[3.649s] launch_testing_examples/check_msgs_launch_test.py [32m.[0m[32m                      [ 11%][0m
+[35.584s] launch_testing_examples/check_multiple_nodes_launch_test.py [32m.[0m[32m            [ 22%][0m
+[40.999s] launch_testing_examples/check_node_launch_test.py [32m.[0m[32m                      [ 33%][0m
+[41.012s] launch_testing_examples/hello_world_launch_test.py [32m.[0m[32m                     [ 44%][0m
+[44.293s] launch_testing_examples/record_rosbag_launch_test.py [32m.[0m[32m                   [ 55%][0m
+[44.709s] launch_testing_examples/set_param_launch_test.py [32m.[0m[32m                       [ 66%][0m
+[45.278s] test/test_copyright.py [32m.[0m[32m                                                 [ 77%][0m
+[45.504s] test/test_flake8.py [32m.[0m[33m                                                    [ 88%][0m
+[45.593s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[45.596s] 
+[45.597s] [33m=============================== warnings summary ===============================[0m
+[45.597s] test/test_flake8.py::test_flake8
+[45.598s] test/test_flake8.py::test_flake8
+[45.602s] test/test_flake8.py::test_flake8
+[45.603s] test/test_flake8.py::test_flake8
+[45.604s] test/test_flake8.py::test_flake8
+[45.606s] test/test_flake8.py::test_flake8
+[45.609s] test/test_flake8.py::test_flake8
+[45.612s] test/test_flake8.py::test_flake8
+[45.614s]   Warning: This process (pid=488) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[45.616s] 
+[45.619s] -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[45.620s] - generated xml file: /rjd_projects/colcon_practice1/build/launch_testing_examples/pytest.xml -
+[45.623s] [33m======================== [32m9 passed[0m, [33m[1m8 warnings[0m[33m in 44.16s[0m[33m ========================[0m
+[45.860s] Invoked command in '/rjd_projects/colcon_practice1/src/examples/launch_testing/launch_testing_examples' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/rjd_projects/colcon_practice1/build/launch_testing_examples/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/launch_testing_examples:/rjd_projects/colcon_practice1/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

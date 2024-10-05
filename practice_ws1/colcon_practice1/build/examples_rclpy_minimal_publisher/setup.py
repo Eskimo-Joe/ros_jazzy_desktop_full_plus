@@ -1,0 +1,1 @@
+/rjd_projects/colcon_practice1/src/examples/rclpy/topics/minimal_publisher/setup.py

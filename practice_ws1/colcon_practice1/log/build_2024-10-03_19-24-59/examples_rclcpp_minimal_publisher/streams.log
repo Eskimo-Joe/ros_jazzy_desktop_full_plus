@@ -1,0 +1,87 @@
+[0.193s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher
+[8.083s] -- The C compiler identification is GNU 13.2.0
+[8.088s] -- The CXX compiler identification is GNU 13.2.0
+[8.091s] -- Detecting C compiler ABI info
+[8.094s] -- Detecting C compiler ABI info - done
+[8.099s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.102s] -- Detecting C compile features
+[8.105s] -- Detecting C compile features - done
+[8.109s] -- Detecting CXX compiler ABI info
+[8.113s] -- Detecting CXX compiler ABI info - done
+[8.116s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.120s] -- Detecting CXX compile features
+[8.123s] -- Detecting CXX compile features - done
+[8.127s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.130s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.134s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.137s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[8.142s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[8.148s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.158s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.163s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.166s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.170s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.174s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.178s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[8.181s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.185s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.191s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.195s] -- Configured cppcheck include dirs: 
+[8.198s] -- Configured cppcheck exclude dirs and/or files: 
+[8.202s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.206s] -- Configured cpplint exclude dirs and/or files: 
+[8.210s] -- Added test 'lint_cmake' to check CMake code style
+[8.215s] -- Added test 'uncrustify' to check C / C++ code style
+[8.219s] -- Configured uncrustify additional arguments: 
+[8.222s] -- Added test 'xmllint' to check XML markup files
+[8.227s] -- Configuring done (7.5s)
+[8.529s] -- Generating done (0.8s)
+[8.717s] -- Build files have been written to: /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher
+[8.728s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher
+[8.738s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[9.002s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[9.007s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[9.014s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[9.050s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[9.054s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[9.070s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[52.514s] [ 58%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[60.342s] [ 58%] Built target publisher_not_composable
+[83.690s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[83.948s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[84.310s] [ 83%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[85.366s] [ 91%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[87.475s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[88.830s] [100%] Built target publisher_wait_for_all_acked
+[89.000s] [100%] Built target publisher_lambda
+[89.108s] [100%] Built target publisher_member_function_with_type_adapter
+[89.707s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[90.863s] [100%] Built target publisher_member_function
+[91.081s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[91.334s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher
+[101.047s] -- Install configuration: ""
+[101.051s] -- Execute custom install script
+[101.058s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[101.061s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[101.067s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[101.073s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[101.078s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[101.080s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[101.084s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[101.087s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[101.091s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[101.094s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[101.098s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[101.101s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[101.106s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[101.114s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[101.122s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[101.127s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[101.131s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[101.135s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[101.139s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[101.145s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[101.151s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[101.285s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_publisher

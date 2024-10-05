@@ -1,0 +1,141 @@
+[0.333s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.464s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.466s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.468s]    Site: 9089e2a3b0de
+[0.471s]    Build name: (empty)
+[0.474s]  Add coverage exclude regular expressions.
+[0.476s] Create new tag: 20241003-2106 - Experimental
+[0.477s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.479s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.482s] Test project /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition
+[0.484s] Constructing a list of tests
+[0.486s] Done constructing a list of tests
+[0.487s] Updating test list for fixtures
+[0.489s] Added 0 tests to meet fixture requirements
+[0.506s] Checking test dependency graph...
+[0.512s] Checking test dependency graph end
+[0.527s] test 1
+[0.556s]     Start 1: copyright
+[0.587s] 
+[0.590s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml"
+[0.596s] 1: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition
+[0.600s] 1: Test timeout computed to be: 200
+[1.282s] 1: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition':
+[1.285s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml
+[2.606s] 1: No problems found, checked 8 files
+[2.647s] 1: -- run_test.py: return code 0
+[2.657s] 1: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml'
+[2.689s] 1/6 Test #1: copyright ........................   Passed    2.30 sec
+[2.696s] test 2
+[2.702s]     Start 2: cppcheck
+[2.704s] 
+[2.709s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--include_dirs" "/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/include"
+[2.713s] 2: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition
+[2.715s] 2: Test timeout computed to be: 300
+[2.888s] 2: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition':
+[2.890s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml --include_dirs /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/include
+[3.139s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[3.203s] 2: -- run_test.py: return code 0
+[3.208s] 2: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml'
+[3.232s] 2/6 Test #2: cppcheck .........................   Passed    0.53 sec
+[3.235s] test 3
+[3.238s]     Start 3: cpplint
+[3.239s] 
+[3.244s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml"
+[3.246s] 3: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition
+[3.248s] 3: Test timeout computed to be: 120
+[3.410s] 3: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition':
+[3.412s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml
+[6.740s] 3: Using '--root=/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/include' argument
+[6.744s] 3: 
+[6.750s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp
+[6.752s] 3: 
+[6.754s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp
+[6.757s] 3: 
+[6.761s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h
+[6.763s] 3: 
+[6.772s] 3: Using '--root=/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/src' argument
+[6.774s] 3: 
+[6.776s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp
+[6.779s] 3: 
+[6.782s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp
+[6.787s] 3: 
+[6.792s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp
+[6.794s] 3: 
+[6.797s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp
+[6.801s] 3: 
+[6.803s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp
+[6.805s] 3: 
+[6.807s] 3: No problems found
+[6.809s] 3: -- run_test.py: return code 0
+[6.811s] 3: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml'
+[6.819s] 3/6 Test #3: cpplint ..........................   Passed    3.22 sec
+[6.821s] test 4
+[6.823s]     Start 4: lint_cmake
+[6.827s] 
+[6.831s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml"
+[6.837s] 4: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition
+[6.842s] 4: Test timeout computed to be: 60
+[6.880s] 4: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition':
+[6.883s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml
+[6.948s] 4: 
+[6.952s] 4: No problems found
+[6.997s] 4: -- run_test.py: return code 0
+[7.003s] 4: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml'
+[7.039s] 4/6 Test #4: lint_cmake .......................   Passed    0.56 sec
+[7.041s] test 5
+[7.044s]     Start 5: uncrustify
+[7.046s] 
+[7.049s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml"
+[7.051s] 5: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition
+[7.053s] 5: Test timeout computed to be: 60
+[7.229s] 5: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition':
+[7.232s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml
+[7.605s] 5: No code style divergence in file 'include/minimal_composition/publisher_node.hpp'
+[7.609s] 5: 
+[7.613s] 5: No code style divergence in file 'include/minimal_composition/subscriber_node.hpp'
+[7.616s] 5: 
+[7.619s] 5: No code style divergence in file 'include/minimal_composition/visibility.h'
+[7.622s] 5: 
+[7.624s] 5: No code style divergence in file 'src/composed.cpp'
+[7.626s] 5: 
+[7.629s] 5: No code style divergence in file 'src/publisher_node.cpp'
+[7.631s] 5: 
+[7.634s] 5: No code style divergence in file 'src/standalone_publisher.cpp'
+[7.636s] 5: 
+[7.637s] 5: No code style divergence in file 'src/standalone_subscriber.cpp'
+[7.643s] 5: 
+[7.645s] 5: No code style divergence in file 'src/subscriber_node.cpp'
+[7.647s] 5: 
+[7.650s] 5: No problems found
+[7.662s] 5: -- run_test.py: return code 0
+[7.667s] 5: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml'
+[7.711s] 5/6 Test #5: uncrustify .......................   Passed    0.65 sec
+[7.715s] test 6
+[7.722s]     Start 6: xmllint
+[7.724s] 
+[7.730s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml"
+[7.737s] 6: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition
+[7.741s] 6: Test timeout computed to be: 60
+[7.927s] 6: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition':
+[7.929s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml
+[8.379s] 6: File 'package.xml' is valid
+[8.384s] 6: 
+[8.387s] 6: No problems found
+[8.415s] 6: -- run_test.py: return code 0
+[8.419s] 6: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml'
+[8.458s] 6/6 Test #6: xmllint ..........................   Passed    0.75 sec
+[8.478s] 
+[8.485s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[8.487s] 
+[8.526s] Label Time Summary:
+[8.531s] copyright     =   2.30 sec*proc (1 test)
+[8.538s] cppcheck      =   0.53 sec*proc (1 test)
+[8.544s] cpplint       =   3.22 sec*proc (1 test)
+[8.549s] lint_cmake    =   0.56 sec*proc (1 test)
+[8.556s] linter        =   8.01 sec*proc (6 tests)
+[8.559s] uncrustify    =   0.65 sec*proc (1 test)
+[8.562s] xmllint       =   0.75 sec*proc (1 test)
+[8.565s] 
+[8.569s] Total Test time (real) =   8.09 sec
+[8.579s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

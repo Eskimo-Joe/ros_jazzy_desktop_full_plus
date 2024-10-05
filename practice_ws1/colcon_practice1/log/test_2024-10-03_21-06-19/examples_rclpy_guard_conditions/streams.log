@@ -1,0 +1,17 @@
+[0.916s] Invoking command in '/rjd_projects/colcon_practice1/src/examples/rclpy/guard_conditions': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions:/rjd_projects/colcon_practice1/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.465s] [1m============================= test session starts ==============================[0m
+[2.468s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[2.470s] cachedir: /rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions/.pytest_cache
+[2.471s] rootdir: /rjd_projects/colcon_practice1/src/examples/rclpy
+[2.473s] configfile: pytest.ini
+[2.480s] plugins: ament-pep257-0.17.1, ament-xmllint-0.17.1, launch-testing-ros-0.26.5, ament-copyright-0.17.1, ament-lint-0.17.1, ament-flake8-0.17.1, launch-testing-3.4.2, colcon-core-0.18.1, cov-4.1.0
+[2.484s] [1mcollecting ... [0m[1m
+[2.488s] collected 3 items                                                              [0m
+[2.490s] 
+[3.187s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[3.618s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[3.798s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[3.803s] 
+[3.805s] - generated xml file: /rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions/pytest.xml -
+[3.806s] [32m============================== [32m[1m3 passed[0m[32m in 1.67s[0m[32m ===============================[0m
+[4.327s] Invoked command in '/rjd_projects/colcon_practice1/src/examples/rclpy/guard_conditions' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/rjd_projects/colcon_practice1/build/examples_rclpy_guard_conditions:/rjd_projects/colcon_practice1/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

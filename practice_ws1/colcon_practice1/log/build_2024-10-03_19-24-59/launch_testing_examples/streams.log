@@ -1,0 +1,35 @@
+[3.566s] Invoking command in '/rjd_projects/colcon_practice1/build/launch_testing_examples': PYTHONPATH=/rjd_projects/colcon_practice1/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/launch_testing_examples/build --no-deps symlink_data
+[4.978s] running develop
+[4.980s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.981s] !!
+[4.983s] 
+[4.984s]         ********************************************************************************
+[4.986s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.988s]         Instead, use pypa/build, pypa/installer or other
+[4.989s]         standards-based tools.
+[4.991s] 
+[4.994s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.002s]         ********************************************************************************
+[5.003s] 
+[5.005s] !!
+[5.007s]   easy_install.initialize_options(self)
+[5.509s] running egg_info
+[5.510s] creating launch_testing_examples.egg-info
+[5.552s] writing launch_testing_examples.egg-info/PKG-INFO
+[5.559s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[5.562s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[5.568s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[5.570s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.678s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.688s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.733s] running build_ext
+[5.735s] Creating /rjd_projects/colcon_practice1/install/launch_testing_examples/lib/python3.12/site-packages/launch-testing-examples.egg-link (link to .)
+[5.744s] 
+[5.746s] Installed /rjd_projects/colcon_practice1/build/launch_testing_examples
+[5.749s] running symlink_data
+[5.750s] creating /rjd_projects/colcon_practice1/install/launch_testing_examples/share/ament_index
+[5.753s] creating /rjd_projects/colcon_practice1/install/launch_testing_examples/share/ament_index/resource_index
+[5.757s] creating /rjd_projects/colcon_practice1/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.760s] symbolically linking /rjd_projects/colcon_practice1/build/launch_testing_examples/resource/launch_testing_examples -> /rjd_projects/colcon_practice1/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.762s] symbolically linking /rjd_projects/colcon_practice1/build/launch_testing_examples/package.xml -> /rjd_projects/colcon_practice1/install/launch_testing_examples/share/launch_testing_examples
+[5.837s] Invoked command in '/rjd_projects/colcon_practice1/build/launch_testing_examples' returned '0': PYTHONPATH=/rjd_projects/colcon_practice1/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/rjd_projects/colcon_practice1/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /rjd_projects/colcon_practice1/build/launch_testing_examples/build --no-deps symlink_data

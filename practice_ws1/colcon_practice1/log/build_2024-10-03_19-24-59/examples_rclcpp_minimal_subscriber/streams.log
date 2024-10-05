@@ -1,0 +1,111 @@
+[1.013s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber
+[2.708s] -- The C compiler identification is GNU 13.2.0
+[3.466s] -- The CXX compiler identification is GNU 13.2.0
+[3.835s] -- Detecting C compiler ABI info
+[5.434s] -- Detecting C compiler ABI info - done
+[5.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.665s] -- Detecting C compile features
+[5.667s] -- Detecting C compile features - done
+[5.736s] -- Detecting CXX compiler ABI info
+[7.061s] -- Detecting CXX compiler ABI info - done
+[7.367s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.393s] -- Detecting CXX compile features
+[7.429s] -- Detecting CXX compile features - done
+[7.549s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.120s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.542s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.418s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[11.053s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[11.333s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[11.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.762s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[12.841s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[13.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[13.504s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[13.649s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.371s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[14.674s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[15.154s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[16.568s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.615s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.619s] -- Configured cppcheck include dirs: 
+[16.625s] -- Configured cppcheck exclude dirs and/or files: 
+[16.664s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.674s] -- Configured cpplint exclude dirs and/or files: 
+[16.703s] -- Added test 'lint_cmake' to check CMake code style
+[16.744s] -- Added test 'uncrustify' to check C / C++ code style
+[16.748s] -- Configured uncrustify additional arguments: 
+[16.757s] -- Added test 'xmllint' to check XML markup files
+[16.885s] -- Configuring done (15.8s)
+[18.564s] -- Generating done (1.6s)
+[18.739s] -- Build files have been written to: /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber
+[21.075s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber
+[21.086s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[21.461s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[49.653s] [  8%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[51.875s] [  8%] Built target subscriber_lambda
+[51.940s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[76.191s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[86.100s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[87.200s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[88.248s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[90.299s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[90.576s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[117.643s] [ 41%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[118.890s] [ 41%] Built target wait_set_subscriber
+[142.208s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[145.410s] [ 50%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[145.437s] [ 54%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[148.147s] [ 58%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[150.218s] [ 58%] Built target subscriber_not_composable
+[150.324s] [ 58%] Built target subscriber_content_filtering
+[153.412s] [ 58%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[153.976s] [ 62%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[161.130s] [ 62%] Built target subscriber_member_function_with_type_adapter
+[161.295s] [ 66%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[173.877s] [ 70%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[174.513s] [ 70%] Built target time_triggered_wait_set_subscriber
+[174.631s] [ 75%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[174.653s] [ 83%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[174.658s] [ 83%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[187.114s] [ 87%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[189.022s] [ 91%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[189.843s] [ 91%] Built target static_wait_set_subscriber
+[191.677s] [ 91%] Built target wait_set_subscriber_library
+[200.092s] [ 95%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[200.217s] [100%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[201.951s] [100%] Built target subscriber_member_function_with_topic_statistics
+[201.991s] [100%] Built target subscriber_member_function
+[202.308s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber -- -j8 -l8
+[202.521s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber
+[202.542s] -- Install configuration: ""
+[202.545s] -- Execute custom install script
+[202.551s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[202.582s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[202.603s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[202.625s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[202.646s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[202.666s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[202.686s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[202.706s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[202.726s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[202.745s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[202.765s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[202.788s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[202.814s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[202.840s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[202.861s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[202.887s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[202.912s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[202.936s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[202.961s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[202.986s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[203.007s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[203.028s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[203.050s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[203.073s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[203.095s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[203.116s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[203.136s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[203.168s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_subscriber

@@ -1,0 +1,111 @@
+[0.318s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_multithreaded_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_multithreaded_executor:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.588s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[0.592s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[0.594s]    Site: 9089e2a3b0de
+[0.599s]    Build name: (empty)
+[0.601s]  Add coverage exclude regular expressions.
+[0.605s] Create new tag: 20241003-2106 - Experimental
+[0.611s] UpdateCTestConfiguration  from :/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[0.614s] Parse Config file:/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/CTestConfiguration.ini
+[0.618s] Test project /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor
+[0.621s] Constructing a list of tests
+[0.630s] Done constructing a list of tests
+[0.633s] Updating test list for fixtures
+[0.636s] Added 0 tests to meet fixture requirements
+[0.642s] Checking test dependency graph...
+[0.645s] Checking test dependency graph end
+[0.646s] test 1
+[0.651s]     Start 1: copyright
+[0.656s] 
+[0.660s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml"
+[0.663s] 1: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor
+[0.666s] 1: Test timeout computed to be: 200
+[0.672s] 1: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor':
+[0.675s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml
+[0.677s] 1: No problems found, checked 1 files
+[0.681s] 1: -- run_test.py: return code 0
+[0.686s] 1: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/copyright.xunit.xml'
+[0.741s] 1/6 Test #1: copyright ........................   Passed    0.84 sec
+[0.745s] test 2
+[0.749s]     Start 2: cppcheck
+[0.754s] 
+[0.758s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml"
+[0.765s] 2: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor
+[0.771s] 2: Test timeout computed to be: 300
+[0.911s] 2: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor':
+[0.913s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml
+[0.925s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.927s] 2: -- run_test.py: return code 0
+[0.931s] 2: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cppcheck.xunit.xml'
+[0.942s] 2/6 Test #2: cppcheck .........................   Passed    0.53 sec
+[0.949s] test 3
+[0.952s]     Start 3: cpplint
+[0.954s] 
+[0.960s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml"
+[0.968s] 3: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor
+[0.974s] 3: Test timeout computed to be: 120
+[1.180s] 3: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor':
+[1.183s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml
+[1.899s] 3: Using '--root=..' argument
+[1.904s] 3: 
+[1.908s] 3: Done processing /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp
+[1.910s] 3: 
+[1.918s] 3: No problems found
+[1.978s] 3: -- run_test.py: return code 0
+[1.996s] 3: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/cpplint.xunit.xml'
+[2.014s] 3/6 Test #3: cpplint ..........................   Passed    1.05 sec
+[2.016s] test 4
+[2.022s]     Start 4: lint_cmake
+[2.023s] 
+[2.026s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml"
+[2.029s] 4: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor
+[2.033s] 4: Test timeout computed to be: 60
+[2.172s] 4: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor':
+[2.175s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml
+[2.437s] 4: 
+[2.447s] 4: No problems found
+[2.481s] 4: -- run_test.py: return code 0
+[2.486s] 4: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/lint_cmake.xunit.xml'
+[2.612s] 4/6 Test #4: lint_cmake .......................   Passed    0.55 sec
+[2.628s] test 5
+[2.631s]     Start 5: uncrustify
+[2.634s] 
+[2.637s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml"
+[2.640s] 5: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor
+[2.641s] 5: Test timeout computed to be: 60
+[2.824s] 5: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor':
+[2.829s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml
+[3.092s] 5: No code style divergence in file 'multithreaded_executor.cpp'
+[3.102s] 5: 
+[3.104s] 5: No problems found
+[3.146s] 5: -- run_test.py: return code 0
+[3.154s] 5: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/uncrustify.xunit.xml'
+[3.190s] 5/6 Test #5: uncrustify .......................   Passed    0.58 sec
+[3.194s] test 6
+[3.197s]     Start 6: xmllint
+[3.200s] 
+[3.203s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml" "--package-name" "examples_rclcpp_multithreaded_executor" "--output-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml"
+[3.206s] 6: Working Directory: /rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor
+[3.208s] 6: Test timeout computed to be: 60
+[3.327s] 6: -- run_test.py: invoking following command in '/rjd_projects/colcon_practice1/src/examples/rclcpp/executors/multithreaded_executor':
+[3.330s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml
+[4.042s] 6: File 'package.xml' is valid
+[4.045s] 6: 
+[4.058s] 6: No problems found
+[4.074s] 6: -- run_test.py: return code 0
+[4.076s] 6: -- run_test.py: verify result file '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor/test_results/examples_rclcpp_multithreaded_executor/xmllint.xunit.xml'
+[4.128s] 6/6 Test #6: xmllint ..........................   Passed    0.94 sec
+[4.148s] 
+[4.153s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[4.159s] 
+[4.162s] Label Time Summary:
+[4.166s] copyright     =   0.84 sec*proc (1 test)
+[4.169s] cppcheck      =   0.53 sec*proc (1 test)
+[4.171s] cpplint       =   1.05 sec*proc (1 test)
+[4.176s] lint_cmake    =   0.55 sec*proc (1 test)
+[4.179s] linter        =   4.49 sec*proc (6 tests)
+[4.182s] uncrustify    =   0.58 sec*proc (1 test)
+[4.184s] xmllint       =   0.94 sec*proc (1 test)
+[4.185s] 
+[4.197s] Total Test time (real) =   4.61 sec
+[4.942s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_multithreaded_executor' returned '0': AMENT_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_multithreaded_executor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/rjd_projects/colcon_practice1/install/examples_rclcpp_multithreaded_executor:${CMAKE_PREFIX_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

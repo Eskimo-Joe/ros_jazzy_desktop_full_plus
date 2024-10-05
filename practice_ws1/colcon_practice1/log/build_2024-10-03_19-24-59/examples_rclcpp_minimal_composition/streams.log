@@ -1,0 +1,83 @@
+[0.161s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition
+[0.671s] -- The C compiler identification is GNU 13.2.0
+[0.982s] -- The CXX compiler identification is GNU 13.2.0
+[1.066s] -- Detecting C compiler ABI info
+[1.791s] -- Detecting C compiler ABI info - done
+[1.915s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.920s] -- Detecting C compile features
+[1.923s] -- Detecting C compile features - done
+[1.966s] -- Detecting CXX compiler ABI info
+[2.780s] -- Detecting CXX compiler ABI info - done
+[2.909s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.912s] -- Detecting CXX compile features
+[2.914s] -- Detecting CXX compile features - done
+[2.959s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.462s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.807s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.424s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.777s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.908s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.631s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.658s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.002s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.071s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.179s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.581s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[6.775s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.890s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.718s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.815s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.819s] -- Configured cppcheck include dirs: /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition/include
+[7.822s] -- Configured cppcheck exclude dirs and/or files: 
+[7.909s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.911s] -- Configured cpplint exclude dirs and/or files: 
+[7.947s] -- Added test 'lint_cmake' to check CMake code style
+[8.032s] -- Added test 'uncrustify' to check C / C++ code style
+[8.035s] -- Configured uncrustify additional arguments: 
+[8.048s] -- Added test 'xmllint' to check XML markup files
+[8.267s] -- Configuring done (7.9s)
+[9.132s] -- Generating done (0.9s)
+[9.359s] -- Build files have been written to: /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition
+[9.425s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /rjd_projects/colcon_practice1/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition
+[9.436s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[81.352s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[81.362s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[104.188s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[109.781s] [ 33%] Built target composition_nodes
+[109.885s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[121.745s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[122.398s] [ 55%] Built target composition_publisher
+[122.499s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[133.687s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[134.241s] [ 77%] Built target composition_composed
+[134.319s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[140.471s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[141.144s] [100%] Built target composition_subscriber
+[141.198s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[141.307s] Invoking command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition
+[141.336s] -- Install configuration: ""
+[141.340s] -- Execute custom install script
+[141.353s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[141.393s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[141.449s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[141.623s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[141.682s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[141.728s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[141.756s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[141.783s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[141.806s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[141.829s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[141.851s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[141.874s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[141.897s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[141.921s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[141.944s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[141.968s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[141.991s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[142.016s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[142.042s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[142.065s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[142.090s] -- Symlinking: /rjd_projects/colcon_practice1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[142.114s] Invoked command in '/rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /rjd_projects/colcon_practice1/build/examples_rclcpp_minimal_composition
